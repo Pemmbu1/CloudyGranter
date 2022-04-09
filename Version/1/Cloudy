@@ -1,0 +1,211 @@
+-- Instances:
+
+local Cloudy = Instance.new("ScreenGui")
+local CloudyAnnnnnc = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local undertext = Instance.new("TextLabel")
+local UIGradient = Instance.new("UIGradient")
+local Close = Instance.new("TextButton")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local copyrightcloudy = Instance.new("TextLabel")
+
+--Properties:
+
+Cloudy.Name = "Cloudy"
+Cloudy.Parent = game.CoreGui
+Cloudy.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+CloudyAnnnnnc.Name = "CloudyAnnnnnc"
+CloudyAnnnnnc.Parent = Cloudy
+CloudyAnnnnnc.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CloudyAnnnnnc.BackgroundTransparency = 0.100
+CloudyAnnnnnc.BorderSizePixel = 0
+CloudyAnnnnnc.Position = UDim2.new(0.336492896, 0, 0.34959352, 0)
+CloudyAnnnnnc.Size = UDim2.new(0, 414, 0, 185)
+
+Title.Name = "Title"
+Title.Parent = CloudyAnnnnnc
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Position = UDim2.new(0.258454114, 0, 0.427027017, 0)
+Title.Size = UDim2.new(0, 200, 0, 15)
+Title.Font = Enum.Font.GothamSemibold
+Title.Text = "Cloudy."
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+undertext.Name = "undertext"
+undertext.Parent = CloudyAnnnnnc
+undertext.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+undertext.BackgroundTransparency = 1.000
+undertext.Position = UDim2.new(0.258454114, 0, 0.508108139, 0)
+undertext.Size = UDim2.new(0, 200, 0, 11)
+undertext.Font = Enum.Font.GothamSemibold
+undertext.Text = "exploit servers."
+undertext.TextColor3 = Color3.fromRGB(255, 255, 255)
+undertext.TextScaled = true
+undertext.TextSize = 14.000
+undertext.TextWrapped = true
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(15, 15, 15)), ColorSequenceKeypoint.new(0.55, Color3.fromRGB(25, 25, 25)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(35, 35, 35))}
+UIGradient.Parent = CloudyAnnnnnc
+
+Close.Name = "Close"
+Close.Parent = CloudyAnnnnnc
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.Position = UDim2.new(0.920289814, 0, 0.0432432443, 0)
+Close.Size = UDim2.new(0, 25, 0, 25)
+Close.Font = Enum.Font.Nunito
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+
+UIAspectRatioConstraint.Parent = Close
+
+copyrightcloudy.Name = "copyrightcloudy"
+copyrightcloudy.Parent = CloudyAnnnnnc
+copyrightcloudy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+copyrightcloudy.BackgroundTransparency = 1.000
+copyrightcloudy.Position = UDim2.new(0.258454114, 0, 0.88648653, 0)
+copyrightcloudy.Size = UDim2.new(0, 200, 0, 11)
+copyrightcloudy.Font = Enum.Font.GothamSemibold
+copyrightcloudy.Text = "Copyright © CloudyExploit 2022"
+copyrightcloudy.TextColor3 = Color3.fromRGB(255, 255, 255)
+copyrightcloudy.TextScaled = true
+copyrightcloudy.TextSize = 14.000
+copyrightcloudy.TextTransparency = 0.700
+copyrightcloudy.TextWrapped = true
+
+-- Scripts:
+
+local function XJBFOL_fake_script() -- Cloudy.IfMissingFiles 
+	local script = Instance.new('LocalScript', Cloudy)
+
+	wait(5)
+	print("[1]Downloading extensions..")
+	wait(.01)
+	warn("Call for: extensions.")
+	wait(1)
+	print(" ")
+	print(" ")
+	wait(.01)
+	print("[2]Downloading missing files..")
+	wait(.05)
+	warn("Call for: missing files.")
+	wait(1)
+	print(" ")
+	print(" ")
+	wait(.01)
+	print("[3]Downloading lua language..")
+	wait(.07)
+	warn("Call for: lua language.")
+	wait(1)
+	print(" ")
+	print(" ")
+	wait(2)
+	print("[4]Downloading exploit server..")
+	wait(3)
+	warn("Call for: exploit server.")
+	wait(.01)
+	print(" ")
+	print(" ")
+	wait(2)
+	print("[5]Completeing main..")
+	wait(.01)
+	warn("Call for: main.")
+	wait(.01)
+	print(" ")
+	print(" ")
+	wait(1)
+	warn("N37 T77 / "..game.Players.LocalPlayer.LocaleId.." | Access supported.")
+	wait(1)
+	print(" ")
+	print(" ")
+	wait(1)
+	print("[Cloudy]Granting access for: main console..")
+	wait(12)
+	warn("Call for main console.")
+	print(" ")
+	print(" ")
+	wait(1)
+	print("[Cloudy]")
+	local GameInformations = {
+		["Name"] = game.Name;
+		["GameId"] = game.GameId;
+		["GameJobId"] = game.JobId;
+	}
+	wait(.01)
+	warn("Call for:")
+	warn(GameInformations)
+end
+coroutine.wrap(XJBFOL_fake_script)()
+local function JJDYEMW_fake_script() -- Close.CloseScript 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Visible = false
+		wait(.01)
+		script.Parent.Parent.Title.Visible = false
+		wait(.01)
+		script.Parent.Parent.undertext.Visible = false
+		wait(.01)
+		script.Parent.Parent.copyrightcloudy.Visible = false
+		wait(.01)
+		script.Parent.Parent:TweenSize(UDim2.new(0,0,0,0),"Out","Quad")
+		wait(2)
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(JJDYEMW_fake_script)()
+local function BEQVLV_fake_script() -- CloudyAnnnnnc.Effect 
+	local script = Instance.new('LocalScript', CloudyAnnnnnc)
+
+	while true do
+		script.Parent.UIStroke.Transparency = 0.95
+		wait(.07)
+		script.Parent.UIStroke.Transparency = 0.90
+		wait(.07)
+		script.Parent.UIStroke.Transparency = 0.85
+		wait(.07)
+		script.Parent.UIStroke.Transparency = 0.80
+		wait(.07)
+		script.Parent.UIStroke.Transparency = 0.75
+		wait(.07)
+		script.Parent.UIStroke.Transparency = 0.70
+		wait(.07)
+		script.Parent.UIStroke.Transparency = 0.65
+		wait(.07)
+		script.Parent.UIStroke.Transparency = 0.60
+		wait(.07)
+		script.Parent.UIStroke.Transparency = 0.55
+		wait(.07)
+		script.Parent.UIStroke.Transparency = 0.50
+		wait(.07)
+		script.Parent.UIStroke.Transparency = 0.55
+		wait(.07)
+		script.Parent.UIStroke.Transparency = 0.60
+		wait(.07)
+		script.Parent.UIStroke.Transparency = 0.65
+		wait(.07)
+		script.Parent.UIStroke.Transparency = 0.70
+		wait(.07)
+		script.Parent.UIStroke.Transparency = 0.75
+		wait(.07)
+		script.Parent.UIStroke.Transparency = 0.80
+		wait(.07)
+		script.Parent.UIStroke.Transparency = 0.85
+		wait(.07)
+		script.Parent.UIStroke.Transparency = 0.90
+		wait(.07)
+		script.Parent.UIStroke.Transparency = 0.95
+		wait(.07)
+		script.Parent.UIStroke.Transparency = 1
+		wait(.07)
+	end
+end
+coroutine.wrap(BEQVLV_fake_script)()
